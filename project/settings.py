@@ -169,3 +169,5 @@ JAZZMIN_SETTINGS = {
 
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+AUTHENTICATION_BACKENDS=['accounts.backend.Login_Username_Email']
